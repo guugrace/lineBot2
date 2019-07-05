@@ -32,7 +32,7 @@ def callback():
                #sendText(user, 'ไม่อะ')
          #elif ( userText == 'เชอะ') :
                 #sendText(user,'ขรรมๆ')
-    return " ,200
+    return '' ,200
 def sendText(user, text):
   LINE_API = 'https://api.line.me/v2/bot/message/reply'
   headers = {
